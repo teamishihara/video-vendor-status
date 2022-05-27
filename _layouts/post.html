@@ -3,19 +3,26 @@ layout: default
 ---
 
 <section class="section">
-    <div class="container">
-        <div class="heading has-text-centered">
-            <p class="title is-3">{{page.title}}</p>
-            <p class="subtitle is-6"><span class="tag is-white"><small>{{ page.date | date: '%B %d, %Y'}}</small></span></p>
-        </div>
-        <br>
-        <div class="columns is-multiline">
-
-            <div class="column is-half is-offset-one-quarter">
-                <div class="content">
-                    {{content}}
-                </div>
-            </div>
-        </div>
+  <div class="container">
+    <div class="heading has-text-centered">
+      <h1 class="title is-3">{{page.title}}</h1>
+      <p class="subtitle is-6">
+        <span class="tag is-white">
+          {{ page.category }}
+          掲載: {{ page.date | date: '%Y / %m / %d'}}
+        </span>
+      </p>
     </div>
+    <br />
+    <div class="columns is-multiline">
+      <div class="column is-half is-offset-one-quarter">
+        <div class="content">
+          <h3>
+            {{ page.summary }}
+          </h3>
+          {{content}}
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
