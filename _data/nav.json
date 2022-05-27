@@ -1,11 +1,8 @@
 {
-    "items": [{
-            "name": "Portfolio",
-            "link": "/portfolio/"
-        },
+    "items": [
         {
-            "name": "About",
-            "link": "/about/"
+            "name": "サービスサイトへ",
+            "link": "https://video-vendor.web.app/"
         }
     ]
 }

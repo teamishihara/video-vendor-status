@@ -4,7 +4,6 @@ services:
     build: .
     volumes:
       - .:/usr/src/app
-      - ./_site:/srv/jekyll/_site
     command: jekyll serve -s /usr/src/app --watch --verbose --trace
     ports:
       - "4000:4000"

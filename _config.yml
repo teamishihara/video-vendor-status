@@ -1,16 +1,19 @@
 # Site settings
-name: name
+name: "VIDEO VENDOR からのお知らせ"
 email: email
 url: url
 description: "A blog and a portfolio"
-author: "author"
-title: "BlogFolio"
+author: "Team IshiHara LLC"
+title: "VIDEO VENDOR"
 permalink: pretty
-baseurl: /jekyll-theme-blogfolio
+baseurl: /video-vendor-status
 
 # social
-github:
-  username: username
+facebook:
+  username: videovend
 
-twitter:
-  username: username
+instagram:
+  username: video.vendor
+
+line:
+  username: 731jmqas
