@@ -10,14 +10,12 @@
                 <a href="{{ post.url | relative_url }}">
                   <p class="title is-3">
                     {{post.title}}
-                    <span class="tag is-white is-pulled-right"
-                      ><small>{{ post.date | date: '%Y / %m / %d'}}</small></span
-                    >
+                    <span class="tag is-white is-pulled-right">
+                      {{ post.date | date: '%Y / %m / %d'}}
+                    </span>
                   </p>
                   <p class="subtitle">
-                    <small>
-                      {{ post.summary }}
-                    </small>
+                    <small> {{ post.summary }} </small>
                   </p>
                 </a>
               </div>

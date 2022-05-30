@@ -11,7 +11,7 @@ body {
   position: relative;
   padding-bottom: 6rem;
   min-height: 100%;
-  font-family: "Yu Gothic", sans-serif;
+  font-family: "Yu Gothic Medium", YuGothic, sans-serif;
 }
 
 .page-footer {
