@@ -6,7 +6,7 @@ description: "かんたんCM動画作成サービス VIDEO VENDOR の、新着�
 author: "Team IshiHara LLC"
 title: "VIDEO VENDOR"
 permalink: pretty
-baseurl: /video-vendor-status
+baseurl: /
 
 # social
 facebook:
