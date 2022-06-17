@@ -11,9 +11,9 @@ baseurl: /
 # social
 facebook:
   username: videovend
-
 instagram:
   username: video.vendor
-
 line:
   username: 731jmqas
+twitter:
+  username: video_vendor
